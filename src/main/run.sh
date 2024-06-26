@@ -7,4 +7,4 @@ mkdir mr-tmp
 
 rm output/* -rf
 
-go run mrcoordinator.go input/pg-*.txt
+go run mrcoordinator.go pg-*.txt

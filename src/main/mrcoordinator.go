@@ -27,7 +27,7 @@ func main() {
 	// }
 	// defer file.Close()
 
-	m := mr.MakeCoordinator(os.Args[1:], 10)
+	m := mr.MakeCoordinator(os.Args[1:], 1)
 	for m.Done() == false {
 		time.Sleep(time.Second)
 	}
